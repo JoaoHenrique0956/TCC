@@ -4,7 +4,7 @@ import requests
 app = Flask(__name__)
 
 # 🔐 API KEY direto no código
-API_KEY = "AIzaSyCtZFJhr3JXMe95Wm-75GhWFAwwtG5ei0U"
+API_KEY = "Sua_Chave"
 
 print("API_KEY carregada:", API_KEY)
 

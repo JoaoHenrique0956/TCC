@@ -5,7 +5,7 @@ from templates.Index import HTML
 
 app = Flask(__name__)
 
-API_KEY = "AIzaSyAVql-e5jftFIewwoH5Yy-zATZoMU2FHlg"
+API_KEY = "SUA_CHAVE"
 
 print("API_KEY carregada:", API_KEY)
 

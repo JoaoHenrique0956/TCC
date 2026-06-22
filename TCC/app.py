@@ -11,7 +11,7 @@ import logging
 import traceback
 
 app = Flask(__name__)
-app.secret_key = os.environ.get("FLASK_SECRET_KEY", "academic-write-ai-dev-secret")
+app.secret_key = os.environ.get("FLASK_SECRET_KEY", "senha_legal")
 
 logging.basicConfig(
     level=logging.DEBUG,
@@ -20,7 +20,7 @@ logging.basicConfig(
 
 logger = logging.getLogger(__name__)
 
-API_KEY = "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"
+API_KEY = "sua_senha"
 
 client = OpenAI(
     api_key=API_KEY
